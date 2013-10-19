@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Matricula</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- layout Login -->
+    <string name="Titulo">ISIL</string>
+    <string name="Login_btnEntrar">Entrar</string>
+    <string name="Login_txtUser">Usuario</string>
+    <string name="Login_txtPass">Contraseña</string>
+    
+    <!-- layout Turno -->
+    <string name="title_activity_turno">TurnoActivity</string>    
+    <string name="Turno_bienvenida">Su turno de matricula es:</string>
+    <string name="Turno_matricula">7 Agosto 2013 18:00 hs</string>
+    <string name="Turno_recordar">Recordar</string>
+    <string name="Turno_continuar">Continuar</string>
+    <string name="Turno_salir">Salir</string>
+    
+    <!-- layout Turno -->
+
+</resources>

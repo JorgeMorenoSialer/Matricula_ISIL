@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="40dp"
+    android:paddingLeft="80dp"
+    android:paddingRight="80dp"
+    tools:context=".TurnoActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/Turno_bienvenida" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
+        android:text="@string/Turno_matricula" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/chkTurno_Recordar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:text="@string/Turno_recordar" />
+
+        <EditText
+            android:id="@+id/txtTurno_Horas"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:hint="# horas"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnTurno_Continuar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Turno_continuar" />
+
+        <Button
+            android:id="@+id/btnTurno_Salir"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Turno_salir" />
+
+    </LinearLayout>
+
+</LinearLayout>
